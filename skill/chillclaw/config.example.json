@@ -1,0 +1,31 @@
+{
+  "surf_ai": {
+    "api_key": "YOUR_SURF_AI_API_KEY",
+    "base_url": "https://api.asksurf.ai/surf-ai",
+    "default_model": "surf-ask",
+    "deep_research_model": "surf-research"
+  },
+  "binance": {
+    "api_key": "YOUR_BINANCE_API_KEY",
+    "api_secret": "YOUR_BINANCE_API_SECRET",
+    "permissions_note": "Only enable READ and SPOT TRADE. NEVER enable WITHDRAW. Set IP whitelist."
+  },
+  "opennews": {
+    "token": "YOUR_OPENNEWS_TOKEN",
+    "get_token_at": "https://6551.io/mcp"
+  },
+  "alpha123": {
+    "api_url": "https://alpha123.uk/api/data?fresh=1",
+    "note": "Public API, no auth required. Has Cloudflare protection, use fetch() in browser/OpenClaw environment."
+  },
+  "booster_calendar": {
+    "api_url": "https://booster-unlock.vercel.app/api.json",
+    "note": "Public API, no auth required"
+  },
+  "settings": {
+    "language": "zh",
+    "unlock_alert_days_before": 1,
+    "scan_interval_minutes": 60,
+    "earn_scan_time": "08:00"
+  }
+}
